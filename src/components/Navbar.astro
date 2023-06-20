@@ -1,14 +1,15 @@
 ---
-
+import enlaces from '../config/navbar.json'
 ---
 <div class=" p-0 m-auto w-11/12 row-start-2 row-end-3">
   <nav class="flex gap-2 overflow-x-auto snap-x overflow-hidden m-1 p-0">
-    <a class="snap-start shrink-0 my-0 mx-0 py-2 px-4 font-medium text-slate-50 text-xs rounded-xl bg-blue-950  hover:bg-slate-50 hover:text-blue-950" href="/border-width"> Border-width</a>
-    <a class="snap-start shrink-0 my-0 mx-0 py-2 px-4 font-medium text-slate-50 text-xs rounded-xl bg-blue-950  hover:bg-slate-50 hover:text-blue-950" href="/border-color"> Border-color</a>
-    <a class="snap-start shrink-0 my-0 mx-0 py-2 px-4 font-medium text-slate-50 text-xs rounded-xl bg-blue-950  hover:bg-slate-50 hover:text-blue-950" href="/border-style"> Border-style</a>
-    <a class="snap-start shrink-0 my-0 mx-0 py-2 px-4 font-medium text-slate-50 text-xs rounded-xl bg-blue-950  hover:bg-slate-50 hover:text-blue-950" href="/background-color"> Background-color</a>
-    <a class="snap-start shrink-0 my-0 py-2 px-4 font-medium text-slate-50 text-xs rounded-xl  bg-blue-950  hover:bg-slate-50 hover:text-blue-950" href="/color">Color</a>
-    <a class="snap-start shrink-0 my-0 py-2 px-4 font-medium text-slate-50 text-xs rounded-xl  bg-blue-950  hover:bg-slate-50 hover:text-blue-950" href="/grid-gap">Grid-gap</a>
     
+    {
+
+      enlaces.map((enlace) => (
+        <a class="snap-start shrink-0 my-0 mx-0 py-2 px-4 font-medium text-slate-50 text-xs rounded-xl bg-blue-950  hover:bg-slate-50 hover:text-blue-950" href={enlace.href}>{enlace.title}</a>
+      ))
+    }
+
   </nav>
 </div>
