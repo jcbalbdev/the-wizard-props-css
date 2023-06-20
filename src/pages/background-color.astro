@@ -1,0 +1,70 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Button from "../components/Button.astro"
+---
+
+<Layout title="TheWizar[Props] | Background-color">
+    <main class="p-1 my-1 mx-auto w-11/12  row-start-2 row-end-6">
+      <div class="p-1  h-full grid grid-cols-2 grid-rows-5 gap-4">
+          <!-- definicion de la propiedad -->
+          <p class="m-0 p-4 font-normal text-center text-base text-blue-950 bg-slate-50 rounded-lg col-span-2 row-start-1 row-end-2 ">
+            Define el color del background del elemento.
+          </p>
+          <!-- valores de la propiedad -->
+          <section class="m-0 p-4 overflow-auto bg-yellow-300  rounded-lg col-span-2 row-start-2 row-end-4 md:col-span-1 md:row-start-2 md:row-end-6" id="scr" >
+            <div class="p-0 flex flex-col gap-4 overflow-y-auto" >
+              <Button title="background-color:transparent;" body="Por defecto el color del background es transparente, eso quiere decir que no hay color. "/>
+              <Button title="background-color:red;" body="You can use one of the 140+ color names."/>
+              <Button title="background-color:#05ffb0;" body="You can use hexadecimal color codes."/>
+              <Button title="background-color: rgb(50, 115, 220);" body="You can use rgb() color codes: the first value is for red, the second value is for green y the third value is for blue.Each of them can have a value between 0 and 255."/>
+              <Button title="background-color: rgba(50, 115, 220, 0.3);" body="You can use rgba() color codes: the first 3 values are for rgb y the 4th value is for the alpha channel and defines the opacity of the color.The alpha value can go from zero 0 (transparent) to one 1 (opaque). "/>
+              <Button title="background-color: hsl(14, 100%, 53%);" body="You can use hsl() color codes: the first value is for hue and can go from 0 to 359, the second value is for saturation and go from 0% to 100% y the third value is for luminosity and go from 0% to 100%"/>
+              <Button title="background-color: hsla(14, 100%, 53%, 0.6);" body="You can use rgba() color codes: the first 3 values are for hsl y the 4th value is for the alpha channel and defines the opacity of the color.The alpha value can go from zero 0 (transparent) to one 1 (opaque)."/>
+
+            </div>
+          </section>
+          <!-- interfaz de la propiedad -->
+          <div class="m-0 p-0   rounded-lg col-span-2 row-start-4 row-end-6 md:col-span-1 md:row-start-2 md:row-end-6">
+            <div class="w-full h-full relative ">
+              <div id="myUI" class="box absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-yellow-300 border-2 border-b-4 border-blue-950 rounded-2xl"><div class="w-full h-fullrelative ">
+                <div  class=" text-5xl font-bold text-blue-950   absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">JC</div>
+              </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </main>
+</Layout>
+
+<script>
+
+  const btns = document.querySelectorAll('button.btn');
+  
+  btns.forEach((btn) => {
+  
+  btn.onclick = () => {
+  let propiedad = btn.firstElementChild.innerHTML;
+  document.querySelector('div.box').setAttribute('style', propiedad);
+  }
+  
+  });
+  </script>
+
+
+<style>
+	#scr::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+	}
+  #scr::-webkit-scrollbar-thumb{
+    background:rgb(23 37 84);
+    border-radius: 16px;
+	}
+  #scr::-webkit-scrollbar-thumb:hover {
+    background: white;
+  }
+  .container::-webkit-scrollbar-track {
+    border-radius: 16px;
+  }
+
+</style>
