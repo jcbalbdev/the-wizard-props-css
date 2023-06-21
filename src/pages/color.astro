@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Button from "../components/Button.astro"
+import botones from '../config/color.json'
 ---
 
 <Layout title="TheWizar[Props] | Color">
@@ -13,13 +14,9 @@ import Button from "../components/Button.astro"
           <!-- valores de la propiedad -->
           <section class="m-0 p-4 overflow-auto bg-yellow-300  rounded-lg col-span-2 row-start-2 row-end-4 md:col-span-1 md:row-start-2 md:row-end-6" id="scr" >
             <div class="p-0 grid grid-cols-1 grid-rows-7 gap-4" >
-              <Button title="color:transparent;" body="Applies a transparent color to the text. The text will still take up the space it should."/>
-              <Button title="color:red;" body="You can use one of the 140+ color names."/>
-              <Button title="color:#05ffb0;" body="You can use hexadecimal color codes."/>
-              <Button title="color: rgb(50, 115, 220);" body="You can use rgb() color codes: the first value is for red, the second value is for green y the third value is for blue.Each of them can have a value between 0 and 255."/>
-              <Button title="color: rgba(50, 115, 220, 0.3);" body="You can use rgba() color codes: the first 3 values are for rgb y the 4th value is for the alpha channel and defines the opacity of the color.The alpha value can go from zero 0 (transparent) to one 1 (opaque). "/>
-              <Button title="color: hsl(14, 100%, 53%);" body="You can use hsl() color codes: the first value is for hue and can go from 0 to 359, the second value is for saturation and go from 0% to 100% y the third value is for luminosity and go from 0% to 100%"/>
-              <Button title="color: hsla(14, 100%, 53%, 0.6);" body="You can use rgba() color codes: the first 3 values are for hsl y the 4th value is for the alpha channel and defines the opacity of the color.The alpha value can go from zero 0 (transparent) to one 1 (opaque)."/>
+              {
+                botones.map((boton)=>(<Button title={boton.title} body={boton.body}/>))
+              }
 
             </div>
           </section>

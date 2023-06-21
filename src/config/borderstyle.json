@@ -1,0 +1,42 @@
+[
+  {
+    "title":"border-style: none;",
+    "body":"Remueve los bordes del elemento."
+  },
+  {
+    "title":"border-style: dotted;",
+    "body":"Convierte el borde en una secuencia de puntos."
+  },
+  {
+    "title":"border-style: dashed;",
+    "body":"Convierte el borde en una secuencia de guiones."
+  },
+  {
+    "title":"border-style: solid;",
+    "body":"Convierte el borde en una linea solida"
+  },
+  {
+    "title":"border-style: double;",
+    "body":"Divide el borde en dos lineas."
+  },
+  {
+    "title":"border-style: groove;",
+    "body":"Establece un estilo de inserccion a los bordes"
+  },
+  {
+    "title":"border-right-style: double;",
+    "body":"Aplica cualquier valor de border-style pero solo al borde de la derecha."
+  },
+  {
+    "title":"border-top-style: double;",
+    "body":"Aplica cualquier valor de border-style pero solo al borde de arriba."
+  },
+  {
+    "title":"border-left-style: double;",
+    "body":"Aplica cualquier valor de border-style pero solo al borde de la izquierda"
+  },
+  {
+    "title":"border-bottom-style: double;",
+    "body":"Aplica cualquier valor de border-style pero solo al borde de abajo"
+  }
+]

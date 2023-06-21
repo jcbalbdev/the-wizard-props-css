@@ -1,0 +1,14 @@
+[
+  {
+    "title":"grid-gap: 0 0;",
+    "body":"Removes both rows and columns gaps."
+  },
+  {
+    "title":"grid-gap: 10px;",
+    "body":"You can set a single value."
+  },
+  {
+    "title":"grid-gap: 3rem 1rem;",
+    "body":"You can set a value for each direction: rows first, columns second."
+  }
+]

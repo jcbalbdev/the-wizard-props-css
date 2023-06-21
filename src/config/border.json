@@ -1,0 +1,26 @@
+[
+  {
+    "title":"border: 8px double blue;",
+    "body":"Asigna en el siguiente orden el valor de 8px para el border-width, el de double para border-style y el de blue para border-color.¡El orden es importante!"
+  },
+  {
+    "title":"border: 4px dotted;",
+    "body":"Asigna en el siguiente orden el valor de 4px para el border-width y el de dotted para border-style. Si omitimos el valor de border-color este tomara el color del texto.¡Solo se puede omitir el valor de border-color!"
+  },
+  {
+    "title":"border-right: 4px dashed;",
+    "body":"Aplica cualquier valor de border pero solo al borde de la derecha."
+  },
+  {
+    "title":"border-top: 4px dashed;",
+    "body":"Aplica cualquier valor de border pero solo al borde de arriba."
+  },
+  {
+    "title":"border-left: 4px dashed;",
+    "body":"Aplica cualquier valor de border pero solo al borde de la izquierda"
+  },
+  {
+    "title":"border-bottom: 4px dashed;",
+    "body":"Aplica cualquier valor de border pero solo al borde de abajo"
+  }
+]

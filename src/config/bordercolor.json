@@ -1,0 +1,46 @@
+[
+  {
+    "title":"border-color: transparent;",
+    "body":"Aplica un color transparente a los bordes que seguiran manteniendo el espacio definido por el valor de border-width"
+  },
+  {
+    "title":"border-color: red;",
+    "body":"Puedes usar cualquier color predefinido en css, por ejemplo: red, green, blue, etc."
+  },
+  {
+    "title":"border-color: #05ffb0;",
+    "body":"Puedes usar codigos hexadecimales para definir un color, por ejemplo: #202020, #ffffff, etc."
+  },
+  {
+    "title":"border-color: rgb(50, 115, 220);",
+    "body":"Puedes usar el modelo de color rgb() que define los colores como una mezcla entre rojo(red), verde(green) y azul(blue).Cada uno de estos puede tener un valor entre 0 y 255."
+  },
+  {
+    "title":"border-color: rgba(50, 115, 220, 0.3);",
+    "body":"Puedes usar el modelo de color rgba() que define los colores como una mezcla entre rojo(red), verde(green), azul(blue) y un valor alfa(alpha) que define el nivel de opacidad. El valor de alfa puede ir desde 0 (transparente y 1 (opaco)."
+  },
+  {
+    "title":"border-color: hsl(14, 100%, 53%);",
+    "body":"Puedes usar el modelo de color hsl() que define los colores como parametros de tono(hue), saturacion(saturation) y luminisidad(luminosity). El tono puede tener un valor entre 0 y 359, la saturacion entre 0% y 100% y la luminisidad entre 0% y 100%."
+  },
+  {
+    "title":"border-color: hsla(14, 100%, 53%, 0.6);",
+    "body":"Puedes usar el modelo de color hsla() que define los colores como parametros de tono(hue), saturacion(saturation), luminisidad(luminosity) y un valor alfa(alpha). El valor de alfa puede ir desde 0 (transparente y 1 (opaco)."
+  },
+  {
+    "title":"border-right-color: tomato;",
+    "body":"Aplica cualquier valor de border-color pero solo al borde de la derecha."
+  },
+  {
+    "title":"border-top-color: tomato;",
+    "body":"Aplica cualquier valor de border-color pero solo al borde de arriba."
+  },
+  {
+    "title":"border-left-color: tomato;",
+    "body":"Aplica cualquier valor de border-color pero solo al borde de la izquierda"
+  },
+  {
+    "title":"border-bottom-color: tomato;",
+    "body":"Aplica cualquier valor de border-color pero solo al borde de abajo"
+  }
+]

@@ -1,21 +1,23 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Button from "../components/Button.astro"
-import botones from '../config/gridgap.json'
+import botones from '../config/border.json'
 ---
 
-<Layout title="TheWizar[Props] | Grid-gap">
+<Layout title="TheWizar[Props] | Border-color">
     <main class="p-1 my-1 mx-auto w-11/12  row-start-2 row-end-6">
       <div class="p-1  h-full grid grid-cols-2 grid-rows-5 gap-4">
           <!-- definicion de la propiedad -->
           <p class="m-0 p-4 font-normal text-center text-base text-blue-950 bg-slate-50 rounded-lg col-span-2 row-start-1 row-end-2 ">
-            Shorthand property for grid-row-gap and grid-column-gap.
+            Define el border-width, border-style y el border-color a la vez, en ese orden.
           </p>
           <!-- valores de la propiedad -->
           <section class="m-0 p-4 overflow-auto bg-yellow-300  rounded-lg col-span-2 row-start-2 row-end-4 md:col-span-1 md:row-start-2 md:row-end-6" id="scr" >
-            <div  class="p-0 grid grid-cols-1 grid-rows-7 gap-4" >
+            <div class="p-0 grid grid-cols-1 grid-rows-7 gap-4" >
               {
-                botones.map((boton)=>(<Button title={boton.title} body={boton.body}/>))
+                botones.map((boton)=>(
+                  <Button title={boton.title} body={boton.body} />
+                  ))
               }
 
             </div>
@@ -23,8 +25,8 @@ import botones from '../config/gridgap.json'
           <!-- interfaz de la propiedad -->
           <div class="m-0 p-0   rounded-lg col-span-2 row-start-4 row-end-6 md:col-span-1 md:row-start-2 md:row-end-6">
             <div class="w-full h-full relative ">
-              <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-yellow-300 border-2 border-b-4 border-blue-950 rounded-2xl"><div class="w-full h-fullrelative ">
-                <div class="text-5xl font-bold text-blue-950   absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">TW</div>
+              <div class="box absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-yellow-300 border-2 border-b-4 border-blue-950 rounded-2xl"><div class="w-full h-fullrelative ">
+                <div class=" text-5xl font-bold text-blue-950   absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">TW</div>
               </div>
               </div>
             </div>
@@ -32,7 +34,19 @@ import botones from '../config/gridgap.json'
       </div>
     </main>
 </Layout>
+<script>
 
+  const btns = document.querySelectorAll('button.btn');
+  
+  btns.forEach((btn) => {
+  
+  btn.onclick = () => {
+  let propiedad = btn.firstElementChild.innerHTML;
+  document.querySelector('div.box').setAttribute('style', propiedad);
+  }
+  
+  });
+  </script>
 <style>
 	#scr::-webkit-scrollbar{
     width: 0.5rem;

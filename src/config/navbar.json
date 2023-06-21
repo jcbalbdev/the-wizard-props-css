@@ -12,6 +12,14 @@
     "href":"/border-style"
   },
   {
+    "title":"Border-radius",
+    "href":"/border-radius"
+  },
+  {
+    "title":"Border",
+    "href":"/border"
+  },
+  {
     "title":"Background-color",
     "href":"/background-color"
   },
@@ -20,7 +28,11 @@
     "href":"/color"
   },
   {
-    "title":"Align",
+    "title":"Cursor",
+    "href":"/cursor"
+  },
+  {
+    "title":"Grid-gap",
     "href":"/grid-gap"
   }
 ]

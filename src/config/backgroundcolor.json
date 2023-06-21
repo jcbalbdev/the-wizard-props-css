@@ -1,0 +1,30 @@
+[
+  {
+    "title":"background-color:transparent;",
+    "body":"Por defecto el color del background es transparente, eso quiere decir que no hay color."
+  },
+  {
+    "title":"background-color:red;",
+    "body":"You can use one of the 140+ color names."
+  },
+  {
+    "title":"background-color:#05ffb0;",
+    "body":"You can use hexadecimal color codes."
+  },
+  {
+    "title":"background-color: rgb(50, 115, 220);",
+    "body":"You can use rgb() color codes: the first value is for red, the second value is for green y the third value is for blue.Each of them can have a value between 0 and 255."
+  },
+  {
+    "title":"background-color: rgba(50, 115, 220, 0.3);",
+    "body":"You can use rgba() color codes: the first 3 values are for rgb y the 4th value is for the alpha channel and defines the opacity of the color.The alpha value can go from zero 0 (transparent) to one 1 (opaque)."
+  },
+  {
+    "title":"background-color: hsl(14, 100%, 53%);",
+    "body":"You can use hsl() color codes: the first value is for hue and can go from 0 to 359, the second value is for saturation and go from 0% to 100% y the third value is for luminosity and go from 0% to 100%"
+  },
+  {
+    "title":"background-color: hsla(14, 100%, 53%, 0.6);",
+    "body":"You can use rgba() color codes: the first 3 values are for hsl y the 4th value is for the alpha channel and defines the opacity of the color.The alpha value can go from zero 0 (transparent) to one 1 (opaque)."
+  }
+]

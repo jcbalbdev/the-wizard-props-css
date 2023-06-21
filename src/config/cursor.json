@@ -1,0 +1,62 @@
+[
+  {
+    "title":"cursor: default;",
+    "body":"Establece el tipo de cursor por defecto(por lo general es una flecha)."
+  },
+  {
+    "title":"cursor: auto;",
+    "body":"Establece un tipo de cursor que depende del tipo de elemento seleccionado."
+  },
+  {
+    "title":"cursor: pointer;",
+    "body":"Establece un tipo de cursor que por lo general se muestra con los enlaces(por lo general es una mano)"
+  },
+  {
+    "title":"cursor: move;",
+    "body":"Establece un tipo de cursor que por lo general se muestra con los elementos que se pueden mover."
+  },
+  {
+    "title":"cursor: crosshair;",
+    "body":"Establece un tipo de cursor que por lo general se muestra cuando seleccionas un mapa de bits"
+  },
+  {
+    "title":"cursor: text;",
+    "body":"Establece un tipo de cursor que por lo general se muestra cuando un texto puede ser seleccionado"
+  },
+  {
+    "title":"cursor: wait;",
+    "body":"Establece un tipo de cursor que por lo general indica que el programa esta cargando."
+  },
+  {
+    "title":"cursor: help;",
+    "body":"Establece un tipo de cursor que por lo general indica que hay una ayuda disponible"
+  },
+  {
+    "title":"cursor: ne-resize;",
+    "body":"Establece un tipo de cursor que por lo general se usa cuando vas a cambiar el tamaño desde la esquina superior derecha de un cuadro."
+  },
+  {
+    "title":"cursor: nw-resize;",
+    "body":"Establece un tipo de cursor que por lo general se usa cuando vas a cambiar el tamaño desde la esquina superior izquierda de un cuadro."
+  },
+  {
+    "title":"cursor: n-resize;",
+    "body":"Establece un tipo de cursor que por lo general se usa cuando vas a cambiar el tamaño desde el borde superior de un cuadrado."
+  },
+  {
+    "title":"cursor: se-resize;",
+    "body":"Establece un tipo de cursor que por lo general se usa cuando vas a cambiar el tamaño desde la esquina inferior derecha de un cuadro."
+  },
+  {
+    "title":"cursor: sw-resize;",
+    "body":"Establece un tipo de cursor que por lo general se usa cuando vas a cambiar el tamaño desde la esquina inferior izquierda de un cuadro."
+  },
+  {
+    "title":"cursor: s-resize;",
+    "body":"Establece un tipo de cursor que por lo general se usa cuando vas a cambiar el tamaño desde el borde inferior de un cuadro."
+  },
+  {
+    "title":"cursor: w-resize;",
+    "body":"Establece un tipo de cursor que por lo general se usa cuando vas a cambiar el tamaño desde el borde izquierdo de un cuadro."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "title":"border-width: 0px;",
+    "body":"Remueve el ancho de todos los bordes."
+  },
+  {
+    "title":"border-width: 10px;",
+    "body":"Define el ancho de todos los bordes con un valor de 10px."
+  },
+  {
+    "title":"border-width: 10px 5px;",
+    "body":"Define el ancho del borde de arriba(top) y del de abajo(bottom) con un valor de 10px y a su vez del borde de la izquierda(left) y de la derecha(right) con un valor de 5px."
+  },
+  {
+    "title":"border-right-width: 0px;",
+    "body":"Aplica cualquier valor de border-width pero solo al borde de la derecha."
+  },
+  {
+    "title":"border-top-width: 0px;",
+    "body":"Aplica cualquier valor de border-width pero solo al borde de arriba."
+  },
+  {
+    "title":"border-left-width: 0px;",
+    "body":"Aplica cualquier valor de border-width pero solo al borde de la izquierda"
+  },
+  {
+    "title":"border-bottom-width: 0px;",
+    "body":"Aplica cualquier valor de border-width pero solo al borde de abajo"
+  }
+]
