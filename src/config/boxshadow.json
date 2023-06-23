@@ -1,0 +1,22 @@
+[
+  {
+    "title":"box-shadow: none;",
+    "body":"Remueve cualquier sombra que haya sido aplicada al elemento"
+  },
+  {
+    "title":"box-shadow: 4px 6px;",
+    "body":"Necesitas poner al menos dos valores para definir el box-shadow, los cuales son la sombra horizontal(4px) y la sombra vertical(6px). Si no colocas el color de la sombra, esta tomara el color del texto."
+  },
+  {
+    "title":"box-shadow: 6px 4px red;",
+    "body":"Necesitas poner al menos dos valores para definir el box-shadow, los cuales son la sombra horizontal(6px) y la sombra vertical(4px) y el tercer valor sera el color de la sombra."
+  },
+  {
+    "title":"box-shadow: 3px 3px 10px blue;",
+    "body":"Necesitas poner al menos dos valores para definir el box-shadow, los cuales son la sombra horizontal(3px) y la sombra vertical(3px), en este caso el tercer valor sera el difuminado(10px de blur) de la sombra y el cuarto sera el color de la sombra."
+  },
+  {
+    "title":"box-shadow: 2px 3px 8px 4px red;",
+    "body":"Necesitas poner al menos dos valores para definir el box-shadow, los cuales son la sombra horizontal(2px) y la sombra vertical(3px), en este caso el tercer valor sera el difuminado(8px de blur) de la sombra, el cuarto seran los pixeles que la sombra se va expandir(spread) y el ultimo sera el color de la sombra."
+  }
+]
